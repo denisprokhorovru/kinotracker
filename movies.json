@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Дюна",
+        "year": 2021,
+        "genre": "фантастика",
+        "rating": 8.9,
+        "is_watched": true,
+        "seasons": 1,
+        "duration": 155
+    },
+    {
+        "title": "Интерстеллар",
+        "year": 2014,
+        "genre": "фантастика",
+        "rating": 8.6,
+        "is_watched": false,
+        "seasons": 1,
+        "duration": 169
+    }
+]

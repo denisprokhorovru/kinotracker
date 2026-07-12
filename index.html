@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>КиноТрекер</title>
+    <style>
+    /* Селектор — кого красим */
+    /* Свойство: значение — что именно делаем */
+
+    h1 {
+        color: darkblue;          /* цвет текста */
+        text-align: center;   /* выравнивание по центру */
+    }
+
+    button {
+        background-color: green;  /* цвет фона */
+        color: white;             /* цвет текста */
+        padding: 10px 20px;       /* внутренние отступы */
+        border: none;             /* убрать рамку */
+        border-radius: 5px;       /* скруглить углы */
+        cursor: pointer;          /* курсор-рука при наведении */
+    }
+    ul {
+        list-style: none
+    }
+    </style>
+</head>
+<body>
+    <h1>КиноТрекер</h1>
+    <ul id="movie-list">
+    </ul>
+    <button>Добавить фильм</button>
+    <script src="app.js"></script>
+</body>
+</html>
