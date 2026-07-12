@@ -53,12 +53,12 @@
 ## 📁 Структура проекта
 
 kinotracker/
-├── api.py # FastAPI приложение
-├── movie_class.py # Классы Movie и MovieTracker
-├── movies.json # Данные фильмов
-├── index.html # Фронтенд
-├── app.js # JavaScript (логика фронтенда)
-└── README.md # Документация
+    ├── api.py # FastAPI приложение
+    ├── movie_class.py # Классы Movie и MovieTracker
+    ├── movies.json # Данные фильмов
+    ├── index.html # Фронтенд
+    ├── app.js # JavaScript (логика фронтенда)
+    └── README.md # Документация
 
 ## ✅ TODO
 
