@@ -52,8 +52,6 @@
 
 ## 📁 Структура проекта
 
-## 📁 Структура проекта
-
 - `api.py` — FastAPI приложение
 - `movie_class.py` — Классы Movie и MovieTracker
 - `movies.json` — Данные фильмов
