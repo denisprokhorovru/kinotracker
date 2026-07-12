@@ -1,9 +1,18 @@
 from fastapi import FastAPI, HTTPException
 from movie_class import Movie, MovieTracker
 from pydantic import BaseModel
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="КиноТрекер")
+
+# Разрешаем запросы от фронтенда
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # разрешить все источники (для разработки)
+    allow_methods=["*"],  # разрешить все методы (GET, POST, PUT, DELETE)
+    allow_headers=["*"],  # разрешить все заголовки
+)
+
 
 # Создаём трекер и загружаем данные из JSON
 tracker = MovieTracker()
