@@ -29,7 +29,19 @@
     <h1>КиноТрекер</h1>
     <ul id="movie-list">
     </ul>
-    <button>Добавить фильм</button>
+    <button id="add-btn">Добавить фильм</button>
+
+    <div id="add-form" style="display: none;">
+        <h3>Новый фильм</h3>
+        <input type="text" id="title-input" placeholder="Название">
+        <input type="number" id="year-input" placeholder="Год">
+        <input type="text" id="genre-input" placeholder="Жанр">
+        <input type="number" id="rating-input" placeholder="Рейтинг" step="0.1" min="0" max="10">
+        <input type="number" id="seasons-input" placeholder="Сезонов" value="1">
+        <input type="number" id="duration-input" placeholder="Длительность (мин)">
+        <button id="submit-btn">Сохранить</button>
+        <button id="cancel-btn">Отмена</button>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

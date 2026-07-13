@@ -13,7 +13,7 @@
         "year": 2014,
         "genre": "фантастика",
         "rating": 8.6,
-        "is_watched": false,
+        "is_watched": true,
         "seasons": 1,
         "duration": 169
     }
